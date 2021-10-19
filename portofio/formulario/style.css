@@ -1,0 +1,125 @@
+header {
+    display: flex;
+    background: linear-gradient(to left, rgb(132,0,255), rgb(190,41,255));
+
+
+}
+
+h1 {
+    
+    color: white;
+    font-size: 45px;
+    margin-left: 1em;
+   
+    
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: rgb(221, 172, 221);
+    margin-top: 3em;
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 1px black solid;
+      
+}
+
+.encabezado h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+   
+}
+
+form {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+}
+
+ul  {
+   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+form li + li {
+    margin-top: 1em;
+  
+   
+}
+
+label {
+ display: inline-block;
+
+}
+
+.caja{
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 300px;
+
+}
+
+input:focus textarea:focus {
+   border-color: black;
+}
+
+.compartir{
+    font-size: 12px;
+}
+
+.botom button{
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+@media(max-width:425px){
+    .contenedor { 
+        width: 100%;
+
+    }
+
+
+}
+
+@media(max-width:320px){
+    .caja{
+        width: 50%;
+
+    }
+    .ajuste{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

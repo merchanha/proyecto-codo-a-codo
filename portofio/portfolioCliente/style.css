@@ -1,0 +1,260 @@
+/* paleta de colores para la pagina
+:root {
+color: #6f6e72;
+color: #65ECF5;
+color: #FF387A;
+color: #FFFFFF;
+color: #29282c;
+color: black;
+} */
+
+/* Color y tamaño de fondo del Side Bar
+#sidebar-container {
+    min-height: 100vh;
+    width: 25vh;
+    background-color: #29282c;
+} */
+/* Color y tamaño de Box "logo" texto principal del Side Bar
+.logo-principal {
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    background-color: black;
+    height: 30vh;
+} */
+
+/* Sombreado Logo
+.tittle-shadow1 {
+    color: #65ECF5;
+    text-shadow: 4px 4px 4px #FF387A;
+} */
+
+/* .item-menu {
+    text-decoration: none;
+    font-family: 'Odibee Sans', cursive;
+    font-size: xx-large;
+    color: #6f6e72;
+}
+
+.item-menu:hover {
+    color: #FF387A;
+    transition: 0.5s;
+} */
+
+/* Como dar color Gris Claro a los bordes de los Item-menu
+
+.bi {
+    color: #6f6e72;
+    font-size: 1.5rem;
+}
+
+.bi:hover {
+    color: #65ECF5;
+    transition: .5s;
+} */
+:root {
+    color: #6f6e72;
+    color: #65ECF5;
+    color: #ffc038;
+    color: #FFFFFF;
+    color: #29282c;
+    color: black;
+    }
+
+#background-general {
+    background: url(img/background2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+/*Estilo pagina principal*/
+/*transparencia del navbar*/
+.header .navbar {
+    background-color: transparent !important;
+  }
+
+/*hover de links navbar*/
+
+.navbar .navbar-nav .nav-item {
+    color: #FFFFFF;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+    color: #ffc038;
+}
+
+/*Color del boton Search*/
+.color-button .btn-ligth{
+    color: #ffffff;
+    background-color: #ffc038;
+    border-color: #ffffff;
+}
+
+.btn-ligth,
+.btn-ligth:hover,
+.btn-ligth:active,
+.btn-ligth:visited,
+.btn-ligth:focus {
+    color: #ffc038;
+    background-color: #ffffff;
+    border-color: #ffc038;
+}
+
+/*Iconos Dropdown Conact*/
+.bi {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bi {
+    color: #6f6e72;
+    font-size: 1.5rem;
+}
+
+.bi:hover {
+    color: #ffc038;
+    transition: .5s;
+}
+
+/*Section-about style*/
+.section-about {
+    width: 100%;
+    height: 100%;
+
+}
+
+.titulo-wellcome {
+    font-family: 'Anton', sans-serif;
+    color: #ffc038;
+    font-size: 60px;
+}
+
+.col-hello {
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+    font-size: 50px;
+}
+
+.col-parrafo {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.nombre {
+    color: #ffc038;
+}
+
+.border-foto {
+    border: solid #ffc038 1px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px #1b1b1b;
+}
+/*Color del copyrigth*/
+.copy{
+    color: #6f6e72;
+    font-size: small;
+    box-sizing: content-box;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 4px #1b1b1b;
+}
+
+/*Estilo Project caroeusel*/
+.Titulo-Projects {
+    color: #ffc038;
+    text-shadow: 4px 4px 4px #1b1b1b;
+    font-family: 'Anton', sans-serif;
+}
+
+.link-carousel {
+    color:#ffc038;
+    text-decoration: none;
+    background-color: #6f6e72;
+    text-shadow: 4px 4px 4px #1b1b1b;    
+}
+
+.link-carousel:hover {
+    color: #ffffff;
+}
+
+.contenido-carousel {
+    color:#ffc038;
+    text-decoration: none;
+    background-color: #6f6e72;
+    text-shadow: 4px 4px 4px #1b1b1b;
+}
+
+.contenido-carousel-langing {
+    color:#ffc038;
+    text-decoration: none;
+    background-color: #6f6e72;
+    text-shadow: 4px 4px 4px #1b1b1b;
+    width: 35%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: #ffc038;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #ffc038;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #ffc038;
+}
+
+.carousel .carousel-indicators .slide2 {
+    background-color: #ffc038;
+}
+
+.carousel .carousel-indicators .slide3 {
+    background-color: #ffc038;
+}
+
+.carousel .carousel-indicators .slide4 {
+    background-color: #ffc038;
+}
+
+/*Estilo Skills*/
+
+
+.titulo-img-skills {
+    font-family: 'Odibee Sans', cursive;
+    color: #ffc038;
+    text-shadow: 4px 4px 4px #1b1b1b;
+    font-size: 40px;
+}
+
+.Skills-tittle {
+    font-family: 'Odibee Sans', cursive;
+    color: #ffc038;
+    text-shadow: 4px 4px 4px #1b1b1b;
+    font-size: 40px;
+}
+
+.counting {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px #1b1b1b;
+    font-size: large;
+}
+
+/*Estilo Form*/
+.contact-me {
+    font-family: 'Odibee Sans', cursive;
+    color: #ffc038;
+    text-shadow: 4px 4px 4px #1b1b1b;
+    font-size: 40px;
+}
+
+.color-label {
+    color: #ffc038;
+}
+
+
+
+
+ 

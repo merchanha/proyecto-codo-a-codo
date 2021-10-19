@@ -1,0 +1,601 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header .logo{
+    
+    color:white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header.sticky .logo {
+
+    color: #111;
+    z-index: 1000;
+}
+
+
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+    
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header.sticky ul li a{
+
+   color:black;
+   z-index: 1000;
+
+
+}
+
+
+/*.navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position:sticky;
+    top: -10px;;
+   
+   
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.navbar ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow:0 0 10px white ;
+}*/
+
+
+
+
+.portada {
+    
+    min-height: 100vh;
+    background-image: url(imagenes/portada.jpeg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: .9;
+}
+
+
+
+.portada h2
+{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.portada h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.portada h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.btn{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+ /* about */
+
+.about{
+
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    background: rgb(243, 240, 240);
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+.headings {
+
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+.photo {
+    display: flex; 
+    margin: 50px;
+}
+
+.photo img {
+    width: 480px;
+    
+  
+    margin-left: 40px;
+    
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    
+
+}
+
+.me h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery0 img{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+}
+
+.icon i{
+    width: 30px;
+    height: 20px;
+}
+
+/* Portfolio*/
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(190deg, black, rgb(109, 106, 106));
+    color: white;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 400px;
+    height: 240px;
+    margin: 40px;
+}
+
+/*SERVICES*/
+
+.services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(243, 240, 240);
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(26, 20, 20) 50%, white 50%);
+    background-size: 20% 200%;
+    transition: all .8s;
+}
+
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(26, 20, 20);
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.headings1{
+
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
+.footerMain {
+    background-color: black;
+    height: 60px;
+ 
+
+    
+    
+    }
+    
+   .footerText {
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+       
+        padding-top: 1em;
+    }
+
+
+
+/*responsive*/
+
+@media (max-width: 991px) 
+
+{
+
+    header,
+    header.sticky
+    {
+
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+    .menu{
+        position: fixed;
+        top: 68px;;
+        left:-100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+        
+    }
+
+    .menu.active
+    {
+
+        left: 0;
+
+    }
+
+    header ul li a {
+        
+        color:#111;
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .toggle
+    {
+
+        width: 40px;
+        height: 40px;
+        background: url(imagenes/menu.png) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+
+    }
+    .toggle.active
+    
+    {
+
+        background: url(imagenes/close.png) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+
+    header.sticky .toggle
+    
+    {
+        filter: invert(1);
+
+
+    }
+
+    section{
+
+        padding: 0px;
+
+
+    }
+
+    .portada{
+        padding: 150px 50px 100px;
+
+    }
+
+    .portada h2 {
+        font-size: 1.5em;
+
+    }
+
+    .portada h3 {
+        font-size: 1em;
+    }
+
+    .btn{
+        margin-top:10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /*aboutme*/
+
+    .headings{
+        font-size: 24px;
+    }
+
+    .photo{
+
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+
+    .photo img {
+        width: 470px;
+        height: 380px;
+    }
+
+    .gallery0 img{
+        
+        align-items: center;
+    }
+
+    .me{
+        margin-left: 60px;
+    }
+
+    .me h2 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+
+    .me h3{
+        text-align: center;
+
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*contactme*/
+
+    .content{
+        
+        flex-direction:column;
+    }
+
+    .formbox form{
+        justify-content: left;
+        margin-left: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  html{
+
+    width: 460px;
+
+
+  }
+
+    
+    .headings2{
+        margin-top: 45px;
+        font-size: 1.5em;
+        padding-top: 80px;
+    }
+
+    .content{
+        
+        flex-direction:column;
+        margin-top: 10px;
+        margin-left: -10px;
+        padding-right: 30px;
+        justify-content: center;
+    }
+
+    .box1{
+        margin-left:-62px;
+    }
+
+
+
+    .contactinfo h3 p{
+       font-size: 1em;
+       text-align: center;
+       padding-right: 10px;
+        
+    }
+
+    .text p{
+        font-size: 1em;
+    }
+
+    .formbox form{
+        justify-content: center;
+        margin-left: 30px;
+       
+    }
+
+    .about{
+        background-size: contain;
+        
+    }
+
+    .photo img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .headings2 h1 {
+        font-size: 1em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
